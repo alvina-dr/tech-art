@@ -3,12 +3,20 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
 .offre {
   .titre {
     display: block;
-    font-size: 30;
+    font-size: 30px;
     font-weight: 600;
     font-style: italic;
-.paragraphe {
-    font-size: 18;
+  }
+  .paragraphe {
+    display: block;
+    font-size: 18px;
     font-weight: 400;
-}
+  }
+  .saut-ligne {
+    display: block;
+  }
+
+  .qui {
+    margin-left: 8rem;
   }
 }
