@@ -1,14 +1,13 @@
-$bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 .offre {
   .titre {
     display: block;
     font-size: 30;
     font-weight: 600;
     font-style: italic;
-.paragraphe {
-    font-size: 18;
-    font-weight: 400;
-}
+    .paragraphe {
+        font-size: 18;
+        font-weight: 400;
+    }
   }
 }
