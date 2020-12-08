@@ -1,0 +1,12 @@
+body {
+    background: $backgroundColor;
+    color: $bodyColor;
+    font-family: $bodyFont;
+  }
+
+.vip {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    height: auto;
+}
