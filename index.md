@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Tech'Art"
 ---
 
 ## You're ready to go!
