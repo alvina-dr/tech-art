@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content}}
+    {% include section/menu.html %}
+    {% include section/header.html %}
+    {% include section/about.html %}
+    {% include section/offre.html %}
+    {% include section/fidelity.html %}
+    {% include section/badges.html %}
+    {% include section/recommandations.html %}
+    {% include section/vip.html %}
+    {% include section/newsletter.html %}
+    {% include section/footer.html %}
   </body>
 </html>
