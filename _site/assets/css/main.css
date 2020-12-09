@@ -13,6 +13,8 @@
 
 .offre .quoi { display: flex; flex-direction: row; justify-content: space-between; background-color: #FF96A0; }
 
+.about { padding: 0 8px; display: flex; width: 100%; flex-direction: column; }
+
 .bluediv { background-color: #AFEDE8; width: auto; height: auto; display: flex; }
 
 .vip { display: flex; justify-content: space-between; height: auto; width: 100%; }
