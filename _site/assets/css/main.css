@@ -3,15 +3,27 @@
 
 .offre h1, .offre h2, .offre h3, .offre p { margin: 0; }
 
-.offre .titre { display: block; font-size: 30px; font-weight: 600; font-style: italic; }
+.offre h2 { display: block; font-size: 30px; font-weight: 600; font-style: italic; }
 
 .offre .paragraphe { display: block; font-size: 18px; font-weight: 400; }
 
 .offre .saut-ligne { display: block; }
 
-.offre .qui { display: flex; flex-direction: row-reverse; justify-content: space-between; }
+.offre .qui { display: flex; flex-direction: row-reverse; justify-content: flex-end; align-items: center; }
 
-.offre .quoi { display: flex; flex-direction: row; justify-content: space-between; background-color: #FF96A0; }
+.offre .quoi { text-align: right; display: flex; flex-direction: row; justify-content: space-between; background-color: #ff96a0; align-items: center; }
+
+.offre .quoi svg { margin-top: -5px; }
+
+.offre .titre-2 { margin-bottom: 1rem; }
+
+.offre .centrage { margin-right: 1rem; }
+
+.offre .ou { display: flex; flex-direction: row-reverse; justify-content: flex-end; align-items: center; }
+
+.offre .ou svg { margin-top: -2px; }
+
+.offre .centrage-2 { margin-left: 1rem; }
 
 .bluediv { background-color: #AFEDE8; width: auto; height: auto; display: flex; }
 
