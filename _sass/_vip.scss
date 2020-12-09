@@ -7,8 +7,23 @@
     margin: 50px, 10%;
 }
 
+.boutique {
+    background-color: #FF96A0;
+}
+
 .txt-boutique {
     display: none;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+p .boutique {
+    padding: 0px, 10%;
+}
+
+.tablette {
+    display:none;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -21,13 +36,8 @@
     object-fit: contain;
 }
 
-.tablette {
-    display:none;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
 
-p .boutique {
-    margin: 300px;
+
+p .abonnement {
+    padding: 0px, 10%;
 }
