@@ -17,13 +17,15 @@
 
 .bluediv { background-color: #AFEDE8; width: auto; height: auto; display: flex; }
 
-.vip { display: flex; justify-content: space-between; height: auto; width: 100%; }
+.vip { display: flex; flex-direction: column; justify-content: space-between; height: auto; width: 100%; margin: 50px, 10%; }
 
 .txt-boutique { display: none; width: auto; height: auto; object-fit: contain; }
 
 .txt-abonnement { display: none; width: auto; height: auto; object-fit: contain; }
 
 .tablette { display: none; width: auto; height: auto; object-fit: contain; }
+
+p .boutique { margin: 300px; }
 
 /* Typography rules */
 h1 { font-family: 'Righteous', sans-serif; font-size: 36px; color: #000000; }
