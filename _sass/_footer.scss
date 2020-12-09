@@ -1,0 +1,28 @@
+$lightfontcolor: #fdfffc;
+$darkbackground: #001427;
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100%-40px);
+    padding: 0 20px;
+    height: 60px;
+    background-color: $darkbackground;
+
+    p {
+        color: $lightfontcolor;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        width: 80px;
+        
+        i {
+            color: $lightfontcolor;
+        }
+    }
+}
