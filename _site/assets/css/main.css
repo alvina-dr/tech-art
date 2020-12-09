@@ -20,7 +20,7 @@
 /* Typography rules */
 h1 { font-family: 'Poppins', sans-serif; font-size: 2em; color: black; }
 
-h2 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
+h2 { font-family: 'Poppins', sans-serif; font-size: 30px; font-style: italic; font-weight: 400; color: black; }
 
 h3 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
 
