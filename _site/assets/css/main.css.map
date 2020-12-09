@@ -16,7 +16,7 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		"@import \"offre\";\r\n@import \"about\";\r\n@import \"badges\";\r\n@import \"fidelity\";\r\n@import \"newsletter\";\r\n@import \"recommandations\";\r\n@import \"vip\";\r\n@import \"typo\";\r\n@import \"reset\";",
+		"@import \"offre\";\n@import \"about\";\n@import \"badges\";\n@import \"fidelity\";\n@import \"newsletter\";\n@import \"recommandations\";\n@import \"vip\";\n@import \"typo\";\n@import \"reset\";",
 		"$bodyFont: \"Poppins\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\r\n\r\n.offre {\r\n  h1,h2,h3,p {\r\n    margin:0;\r\n  }\r\n  font-family: $bodyFont;\r\n  .titre {\r\n    display: block;\r\n    font-size: 30px;\r\n    font-weight: 600;\r\n    font-style: italic;\r\n  }\r\n  .paragraphe {\r\n    display: block;\r\n    font-size: 18px;\r\n    font-weight: 400;\r\n  }\r\n  .saut-ligne {\r\n    display: block;\r\n  }\r\n\r\n  .qui {\r\n  \r\n    display: flex;\r\n    flex-direction:row-reverse;\r\n    justify-content: space-between ;\r\n  }\r\n\r\n    .quoi {\r\n  \r\n    display: flex;\r\n    flex-direction:row;\r\n    justify-content: space-between ;\r\n    background-color: #FF96A0;\r\n    \r\n  }\r\n}\r\n",
 		"",
 		"",
