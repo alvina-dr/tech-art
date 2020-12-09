@@ -6,33 +6,37 @@
     <title>Tech'Art</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="https://kit.fontawesome.com/68b1f887b3.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/burger.js"></script>
   </head>
   <body>
-    <nav>
-    <div class="menu-btn">
-        <div class="menu-btn__burger">
+    <nav class="menu">
+    <!---BOUTON BURGER---->
+    <div class="burger">
+        <div class="menu-btn">
+            <div class="menu-btn__burger">
+            </div>
         </div>
+        <p class="menu_text">menu</p>
     </div>
-    <!-- Bouton burger à définir -->
-    <div>
-        <i></i>
-        <p>menu</p>
-    </div>
-    <div>
-        <a href="#">Qui sommes-nous</a>
-        <a href="#">Notre offre</a>
-        <a href="#">Nos services</a>
-        <a href="#">Suivre le projet</a>
+
+    <!---MENU OUVERT---->
+    <div class="menu_ouvert" id="m_ouvert">
         <div>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <ul class="menu_list">
+				<li><a href="">Qui sommes-nous</a></li>
+ 				<li><a href="">Notre offre</a></li>
+ 				<li><a href="">Nos services</a></li>
+ 				<li><a href="">Suivre le projet</a></li>
+			</ul>
+            <div>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
         </div>
     </div>
 </nav>
 
-    <video src="assets/media/Loop.mp4" width="100%" controls muted type="video/mp4"></video>
+    <video class="presentation" src="assets/media/Loop.mp4" width="100%" controls muted type="video/mp4"></video>
     <h2>QU'EST-CE QUE TECH'ART</h2>
 <p>TECH'ART est un service de location de matériel artistique pensé pour vous. Louez en deux clics le matériel dont vous avez besoin pendant le confinement !<br> Grâce à la diversité de notre matériel, vous trouverez ce qui vous correspond : des tablettes
     graphiques aux pianos électroniques, en passant par des caméras professionnelles, vous n'en finirez jamais !</p>
@@ -203,4 +207,5 @@
     <p>Réalisé par ©AntiCorp</p>
 </footer>
   </body>
+  <script src="/assets/js/burger.js"></script>
 </html>

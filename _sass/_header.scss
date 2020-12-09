@@ -1,3 +1,19 @@
+.menu {
+    position: absolute;
+    z-index:5;
+
+}
+
+.burger {
+display: flex;
+flex-direction: column;
+}
+
+.menu_text {
+    position: absolute;
+    top: 60px;
+    left:16.555px;
+}
 .menu-btn {
     position: relative;
     display: flex;
@@ -11,7 +27,7 @@
 .menu-btn__burger {
     width: 50px;
     height: 6px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
     transition: all .5s ease-in-out;
@@ -21,7 +37,7 @@
     position: absolute;
     width: 50px;
     height: 6px;
-    background: #fff;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
     transition: all .5s ease-in-out;
@@ -44,4 +60,11 @@
 }
 .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.menu_ouvert {
+    display: none;
+    background-color: white;
+    height: 800px;
+    width: 100vw;
 }
