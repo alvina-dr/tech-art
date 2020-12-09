@@ -1,0 +1,15 @@
+.recommandations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    h2{
+        width: 100%;
+        max-height: 94px;
+        padding-left: 40%;
+        text-align: right;
+    }
+    p {
+        align-self: center;
+    }
+}
