@@ -29,19 +29,21 @@
 
 .bluediv { background-color: #AFEDE8; width: auto; height: auto; display: flex; }
 
-.vip { display: flex; flex-direction: column; justify-content: space-between; height: auto; width: 100%; margin: 50px, 10%; }
+.vip { display: flex; flex-direction: column; justify-content: space-between; height: auto; width: 100%; }
 
-.boutique { background-color: #FF96A0; }
+.boutique { background-color: #FF96A0; padding: 50px 2%; width: calc(100%-4%); }
 
-.txt-boutique { display: none; width: auto; height: auto; object-fit: contain; }
+.boutique p { padding: 10% 0%; width: 80%; }
 
-p .boutique { padding: 0px, 10%; }
+.illustration-boutique { display: none; width: auto; height: auto; object-fit: contain; }
 
 .tablette { display: none; width: auto; height: auto; object-fit: contain; }
 
-.txt-abonnement { display: none; width: auto; height: auto; object-fit: contain; }
+.illustration-abonnement { display: none; width: auto; height: auto; object-fit: contain; }
 
-p .abonnement { padding: 0px, 10%; }
+.abonnement { text-align: right; display: flex; flex-direction: column; justify-content: flex-end; padding: 50px 2%; width: calc(100%-4%); }
+
+.abonnement p { padding: 10% 0%; width: 80%; align-self: flex-end; }
 
 /* Typography rules */
 h1 { font-family: 'Righteous', sans-serif; font-size: 36px; color: #000000; }
@@ -50,7 +52,7 @@ h2 { font-family: "Poppins", sans-serif; font-size: 30px; font-style: italic; fo
 
 h3 { font-family: "Poppins", sans-serif; font-size: 16px; color: #000000; }
 
-p { font-family: "Poppins", sans-serif; font-size: 16px; color: #000000; }
+p { font-family: "Poppins", sans-serif; font-size: 18px; color: #000000; line-height: 1.8em; }
 
 body { background: #fdfffc; color: #000000; font-family: "Poppins", sans-serif; }
 

@@ -4,22 +4,23 @@
     justify-content: space-between;
     height: auto;
     width: 100%;
-    margin: 50px, 10%;
 }
 
 .boutique {
     background-color: #FF96A0;
+    padding: 50px 2%;
+    width: calc(100%-4%);
+    p {
+        padding: 10% 0%;
+        width: 80%;
+    }
 }
 
-.txt-boutique {
+.illustration-boutique {
     display: none;
     width: auto;
     height: auto;
     object-fit: contain;
-}
-
-p .boutique {
-    padding: 0px, 10%;
 }
 
 .tablette {
@@ -29,13 +30,24 @@ p .boutique {
     object-fit: contain;
 }
 
-.txt-abonnement {
+.illustration-abonnement {
     display: none;
     width: auto;
     height: auto;
     object-fit: contain;
 }
 
-p .abonnement {
-    padding: 0px, 10%;
+.abonnement {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 2%;
+    width: calc(100%-4%);
+    p {
+        padding: 10% 0%;
+        width: 80%;
+        align-self: flex-end;
+    }
+
 }
