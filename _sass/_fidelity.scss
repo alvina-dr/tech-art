@@ -1,0 +1,20 @@
+.fidelity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    h2{
+        max-width: 230px;
+        max-height: 89px;
+        padding-top: 20%;
+        padding-left: 15px;
+    }
+    p {
+        padding-bottom: 15%;
+        padding-left: 15px;
+        width: 100%;
+    }
+    img {
+        padding-right: 5px;
+    }
+}
