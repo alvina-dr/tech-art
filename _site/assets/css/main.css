@@ -15,7 +15,7 @@
 
 .bluediv { background-color: #AFEDE8; width: auto; height: auto; display: flex; }
 
-.vip { display: flex; justify-content: space-around; padding: 100px 100px; height: auto; width: 100%; }
+.vip { display: flex; justify-content: space-between; padding: 100px 100px; height: auto; width: 100%; }
 
 /* Typography rules */
 h1 { font-family: 'Poppins', sans-serif; font-size: 2em; color: black; }
@@ -24,6 +24,6 @@ h2 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
 
 h3 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
 
-body { background: #e00000; color: #808080; font-family: "Poppins"; }
+body { background: #ffffff; color: #808080; font-family: "Poppins"; }
 
 /*# sourceMappingURL=main.css.map */
