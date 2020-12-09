@@ -74,13 +74,17 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .menu { position: absolute; z-index: 5; }
 
-.menu_ouvert { display: none; position: fixed; left: 0; top: 0; z-index: 4; background-color: white; height: 100vh; width: 100vw; justify-content: center; align-items: center; }
+.menu_ouvert { display: none; position: fixed; left: 0; top: 0; z-index: 4; background-color: white; height: 100vh; width: 100%; justify-content: center; align-items: center; }
 
 .burger { display: flex; flex-direction: column; z-index: 6; }
 
-.menu_text { position: absolute; top: 60px; left: 16.555px; color: #A26CAA; font-weight: bold; }
+.menu_text { position: absolute; top: 60px; left: 16.555px; color: #A26CAA; font-weight: bold; z-index: 7; }
 
-.menu-btn { position: relative; display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; cursor: pointer; transition: all .5s ease-in-out; }
+.menu_list { height: 90vh; display: flex; flex-direction: column; justify-content: center; }
+
+.social_media { height: 10vh; display: flex; justify-content: space-around; align-items: center; }
+
+.menu-btn { position: relative; display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; cursor: pointer; transition: all .5s ease-in-out; z-index: 7; }
 
 .menu-btn__burger { width: 50px; height: 6px; background-color: #A26CAA; box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2); transition: all .5s ease-in-out; }
 
@@ -95,5 +99,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 .menu-btn.open .menu-btn__burger::before { transform: rotate(45deg) translate(35px, -35px); }
 
 .menu-btn.open .menu-btn__burger::after { transform: rotate(-45deg) translate(35px, 35px); }
+
+footer { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: calc(100%-40px); padding: 0 20px; height: 60px; background-color: #001427; }
+
+footer p { color: #fdfffc; }
+
+footer .social { display: flex; justify-content: space-between; font-size: 20px; width: 80px; }
+
+footer .social i { color: #fdfffc; }
 
 /*# sourceMappingURL=main.css.map */

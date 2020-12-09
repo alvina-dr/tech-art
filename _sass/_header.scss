@@ -12,16 +12,16 @@
     z-index: 4;
     background-color: white;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .burger {
-display: flex;
-flex-direction: column;
-z-index: 6;
-}
+    display: flex;
+    flex-direction: column;
+    z-index: 6;
+    }
 
 .menu_text {
     position: absolute;
@@ -29,10 +29,20 @@ z-index: 6;
     left:16.555px;
     color: #A26CAA;
     font-weight: bold;
+    z-index: 7;
 }
 
 .menu_list {
-
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social_media {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .menu-btn {
     position: relative;
@@ -43,6 +53,7 @@ z-index: 6;
     height: 80px;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    z-index: 7;
 }
 .menu-btn__burger {
     width: 50px;
