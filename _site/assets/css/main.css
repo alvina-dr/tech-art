@@ -13,14 +13,24 @@
 
 .offre .quoi { display: flex; flex-direction: row; justify-content: space-between; background-color: #FF96A0; }
 
-.bluediv { background-color: #AFEDE8; width: 411px; height: 600px; display: flex; }
+.bluediv { background-color: #AFEDE8; width: 100%; height: 100%; display: flex; padding: 40px 8px; }
+
+.h1 { justify-content: center; display: flex; text-align: center; margin-top: 50px; }
+
+.newsletter { text-align: left; line-height: 30px; margin-left: 20px; margin-right: 20px; }
+
+.boiteblanche1 { background-color: #FDFFFC; width: 180px; height: 39px; border-radius: 30px; text-align: center; margin-top: 30px; }
+
+.boiteblanche2 { background-color: #FDFFFC; width: 180px; height: 39px; border-radius: 30px; text-align: center; margin-left: 200px; margin-top: -39px; display: flex; justify-content: center; }
+
+p.renseignement { margin-top: auto; margin-bottom: auto; }
 
 .vip { display: flex; justify-content: space-between; height: auto; width: 100%; }
 
 /* Typography rules */
 h1 { font-family: 'Poppins', sans-serif; font-size: 2em; color: black; }
 
-h2 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
+h2 { font-family: 'Poppins', sans-serif; font-size: 30px; font-style: italic; font-weight: 400; color: black; }
 
 h3 { font-family: 'Poppins', sans-serif; font-size: 1.5em; color: black; }
 
@@ -43,3 +53,5 @@ blockquote:before, blockquote:after { content: ""; content: none; }
 q:before, q:after { content: ""; content: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
+
+/*# sourceMappingURL=main.css.map */
