@@ -96,4 +96,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .menu-btn.open .menu-btn__burger::after { transform: rotate(-45deg) translate(35px, 35px); }
 
+footer { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: calc(100%-40px); padding: 0 20px; height: 60px; background-color: #001427; }
+
+footer p { color: #fdfffc; }
+
+footer .social { display: flex; justify-content: space-between; font-size: 20px; width: 80px; }
+
+footer .social i { color: #fdfffc; }
+
 /*# sourceMappingURL=main.css.map */
