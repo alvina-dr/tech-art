@@ -9,7 +9,6 @@
         height: 100%;
     }
     .overlay {
-        border: red 1px solid;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -18,5 +17,18 @@
         height: 100%;
         z-index: 2;
         top: 0;
+
+        #play-video-button {
+            width: 40px;
+            height: 40px;
+            background: none;
+            border: none;
+
+            img {
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }

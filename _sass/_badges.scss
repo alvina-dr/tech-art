@@ -1,7 +1,6 @@
 .badges {
-
   h2 {
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   p {
@@ -9,26 +8,67 @@
     font-size: 12px;
   }
   h3 {
-      text-align: center;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .badge-slide {
-    height: 280px;
-    width: 180px;
+    height: 300px;
+    width: 260px;
     background-color: #b1ede8;
     text-align: center;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
     margin-top: rem;
     padding: 2rem;
     border-radius: 20px;
     img {
-        margin-top: -0.5rem;
+      margin-top: -0.5rem;
       width: 100px;
     }
   }
-  
+
+  .scroll-items {
+    overflow-x: auto;
+    display: flex;
+
+
+    transition: all 0.2s;
+    transform: scale(0.98);
+    user-select: none;
+    &.active {
+      cursor: grabbing;
+      cursor: -webkit-grabbing;
+      transform: scale(1);
+    }
+  }
+}
+.scroll-container {
+  .gradient-r,
+  .gradient-l {
+    user-select: none;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    width: 3rem;
+    top: 0;
+  }
+  .gradient-r {
+    right: 0;
+    background: linear-gradient(90deg, transparent, #fff);
+}
+.gradient-l {
+    left: 0;
+    background: linear-gradient(-90deg, transparent, #fff);
+
+  }
+  width: 100%;
+  position: relative;
+
+  @include md {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
