@@ -117,6 +117,7 @@ input::placeholder {
 
 .captchat {
     background-color: #FDFFFC;
+    padding: 60px 20px;
     width: 411px;
     height: 466px;
 }
@@ -132,4 +133,40 @@ input::placeholder {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.img {
+    object-fit: contain;
+    height: auto;
+}
+
+.captext {
+    width: 376px;
+    height: 78px;
+    padding-left: 5%;
+}
+
+.purplebox {
+    background-color: #A26CAA;
+    width: 240px;
+    height: 60px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.blanc {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+.txtcapchat {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 3%;
 }
