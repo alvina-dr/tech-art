@@ -47,7 +47,7 @@
         display: none;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%;
         height: auto;
         padding: 8px 20px;
@@ -92,6 +92,22 @@
                 color: #fdfffc;
                 transition: all .3s ease;
             }
+        }
+    }
+}
+.page-title-area {
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .page-title {
+        position: relative;
+        &::before {
+            content: url(/assets/media/tech-art.png);
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
         }
     }
 }

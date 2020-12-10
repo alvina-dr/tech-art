@@ -36,3 +36,27 @@ playBtn.addEventListener('click', function() {
     pauseBtn.style.display = 'block';
 });
 //Partie en cours de conception
+media.addEventListener('timeupdate', function() {
+    var minutes = Math.floor(media.currentTime / 60);
+    var seconds = Math.floor(media.currentTime - minutes * 60);
+    var minuteValue;
+    var secondValue;
+  
+    if (minutes < 10) {
+      minuteValue = '0' + minutes;
+    } else {
+      minuteValue = minutes;
+    }
+  
+    if (seconds < 10) {
+      secondValue = '0' + seconds;
+    } else {
+      secondValue = seconds;
+    }
+  
+    var mediaTime = minuteValue + ':' + secondValue;
+    timer.textContent = mediaTime;
+  
+    var barLength = timerWrapper.clientWidth * (media.currentTime/media.duration);
+    timerBar.style.width = barLength + 'px';
+  });
