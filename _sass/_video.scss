@@ -1,8 +1,22 @@
 .video-player {
+    width: 100%;
+    height: 100%;
+    position: relative;
     display: flex;
-    background-attachment: #fdfffc;
-    justify-content: center;
     video {
+        object-fit: contain;
         width: 100%;
+        height: 100%;
+    }
+    .overlay {
+        border: red 1px solid;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        top: 0;
     }
 }
