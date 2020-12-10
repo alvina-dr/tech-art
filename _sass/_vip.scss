@@ -1,4 +1,5 @@
 
+
 .vip {
     display: flex;
     flex-direction: column;
@@ -10,7 +11,6 @@
 .boutique {
     background-color: #FF96A0;
     padding: 50px 6%;
-    width: calc(100%-12%);
     p {
         padding: 10% 0%;
         width: 80%;
@@ -19,23 +19,25 @@
 
 .illustration-boutique {
     display: none;
-    width: 5%;
+    width: 90px;
     height: auto;
     object-fit: contain;
+    margin-left: 2%;
 }
 
 .tablette {
     display:none;
-    width: 90%;
+    width: 40%;
     height: auto;
     object-fit: contain;
 }
 
 .illustration-abonnement {
     display: none;
-    width: 5%;
+    width: 90px;
     height: auto;
     object-fit: contain;
+    margin-right: 2%;
 }
 
 .abonnement {
@@ -57,9 +59,32 @@
 
 }
 
-@media only screen and (min-width: 900px) {
+.cloche{
+    width: 16%;
+    height: auto;
+}
+
+.promos {
+    width: 20%;
+    height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .boutique {
+        width: 100%;
+    }
+    .abonnement p {
+        width: 100%;
+    }
+    .boutique p {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
     .vip {
         flex-direction: row;
+        margin: 40px 0px;
     }
     .tablette {
         display: initial;
@@ -67,17 +92,23 @@
     .boutique {
         background-color: initial;
         display: initial;
-        padding: 10% 2%;
-        width: 100%;
+        margin-top: 40px;
+        padding: 2% 2%;
+        width: 900px;
+        margin-left: 2%;
             p{
                 width: 100%;
             }
     }
     .abonnement {
         display: initial;
-        padding: 10% 2%;
+        margin-top: 40px;
+        padding: 2% 2%;
+        width: 1200px;
+        margin-right: 2%;
         h2{
             text-align: left;
+            margin-bottom: 20px;
         }
         p {
             text-align: left;
@@ -85,6 +116,16 @@
 
         }
     }
+    .cloche {
+        width: 30%;
+        height: auto;
+        align-self: baseline;
+    }
+    .promos {
+        width: 50%;
+        height: auto;
+    }
+}
 
 @media only screen and (min-width: 1100px) {
 
@@ -94,5 +135,14 @@
     .illustration-boutique{
         display: initial;
     } 
-}
+    .boutique {
+        margin-top: 80px;
+        width: 900px;
+        margin-left: 0%;
+    }
+    .abonnement {
+        margin-top: 80px;
+        width: 900px;
+        margin-right: 0%;
+    }
 }

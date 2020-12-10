@@ -11,17 +11,36 @@
     top:0;
     z-index: 4;
     background-color: white;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
-    justify-content: center;
     align-items: center;
 }
 
+.contenu_menu_ouvert {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
 .burger {
     display: flex;
     flex-direction: column;
     z-index: 6;
     }
+
+.menu_title {
+    top:100px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu_title p {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    color: $fontcolor;
+    font-style: normal;
+    font-weight: bold;
+}
 
 .menu_text {
     position: absolute;
@@ -33,12 +52,27 @@
 }
 
 .menu_list {
-    height: 90vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.menu_list li {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.menu_list li a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
 }
 .social_media {
+    margin-top: 20px;
     height: 10vh;
     display: flex;
     justify-content: space-around;
