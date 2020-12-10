@@ -33,6 +33,15 @@ align-items: flex-start;
     width: 100%;
     text-align: center;
 }
+
+.menu_title p {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    color: $fontcolor;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .menu_text {
     position: absolute;
     top: 60px;
