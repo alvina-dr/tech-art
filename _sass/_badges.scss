@@ -71,4 +71,10 @@
     width: 50%;
     margin: 0 auto;
   }
+  .last {
+      visibility: hidden;
+      opacity: 0;
+      width: 50%;
+      margin: -100px;
+  }
 }

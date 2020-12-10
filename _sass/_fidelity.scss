@@ -1,20 +1,26 @@
 .fidelity {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 100%;
+    justify-content: space-around;
+    .top {
+        display: flex;
+    }
     h2{
-        max-width: 230px;
-        max-height: 89px;
-        padding-top: 20%;
-        padding-left: 15px;
+        width: 250px;
+        height: 89px;
+        margin-left: 5%;
+        align-self: center;
     }
     p {
-        padding-bottom: 15%;
-        padding-left: 15px;
+        padding-bottom: 10%;
+        padding-left: 5%;
         width: 100%;
     }
     img {
-        padding-right: 5px;
+        padding-right: 3%;
+        min-width: 140px;
+        min-height: 212px;
     }
 }
