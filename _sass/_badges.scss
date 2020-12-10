@@ -1,0 +1,26 @@
+.badges {
+
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-size: 12px;
+  }
+  h3 {
+      margin-top: 1rem;
+  }
+
+  .badge-slide {
+    height: 250px;
+    width: 180px;
+    background-color: #b1ede8;
+    text-align: center;
+    margin: 6rem;
+    padding: 2rem;
+    border-radius: 20px;
+    img {
+      width: 100px;
+    }
+  }
+  
+}
