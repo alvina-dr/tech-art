@@ -58,6 +58,16 @@
 
 }
 
+.cloche img{
+    width: 1%;
+    height: auto;
+}
+
+.promos {
+    width: 1%;
+    height: auto;
+}
+
 @media only screen and (max-width: 400px) {
     .boutique {
         width: 100%;
@@ -78,6 +88,7 @@
         margin-top: 0px;
         padding: 2% 2%;
         width: 900px;
+        margin-left: 2%;
             p{
                 width: 100%;
             }
@@ -87,6 +98,7 @@
         margin-top: 0px;
         padding: 2% 2%;
         width: 1200px;
+        margin-right: 2%;
         h2{
             text-align: left;
             margin-bottom: 20px;
@@ -96,6 +108,14 @@
             width: 100%;
 
         }
+    }
+    .cloche {
+        width: 40%;
+        height: auto;
+    }
+    .promos {
+        width: 50%;
+        height: auto;
     }
 }
 
@@ -110,9 +130,11 @@
     .boutique {
         margin-top: 80px;
         width: 900px;
+        margin-left: 0%;
     }
     .abonnement {
         margin-top: 80px;
         width: 900px;
+        margin-right: 0%;
     }
 }
