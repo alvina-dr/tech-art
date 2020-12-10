@@ -10,7 +10,6 @@
 .boutique {
     background-color: #FF96A0;
     padding: 50px 6%;
-    width: calc(100%-12%);
     p {
         padding: 10% 0%;
         width: 80%;
@@ -19,9 +18,10 @@
 
 .illustration-boutique {
     display: none;
-    width: 5%;
+    width: 90px;
     height: auto;
     object-fit: contain;
+    margin-left: 2%;
 }
 
 .tablette {
@@ -33,9 +33,10 @@
 
 .illustration-abonnement {
     display: none;
-    width: 5%;
+    width: 90px;
     height: auto;
     object-fit: contain;
+    margin-right: 2%;
 }
 
 .abonnement {
@@ -57,9 +58,16 @@
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 400px) {
+    .boutique {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
     .vip {
         flex-direction: row;
+        margin: 40px 0px;
     }
     .tablette {
         display: initial;
@@ -67,17 +75,21 @@
     .boutique {
         background-color: initial;
         display: initial;
-        padding: 10% 2%;
-        width: 100%;
+        margin-top: 0px;
+        padding: 2% 2%;
+        width: 900px;
             p{
                 width: 100%;
             }
     }
     .abonnement {
         display: initial;
-        padding: 10% 2%;
+        margin-top: 0px;
+        padding: 2% 2%;
+        width: 1200px;
         h2{
             text-align: left;
+            margin-bottom: 20px;
         }
         p {
             text-align: left;
@@ -85,6 +97,7 @@
 
         }
     }
+}
 
 @media only screen and (min-width: 1100px) {
 
@@ -94,5 +107,12 @@
     .illustration-boutique{
         display: initial;
     } 
-}
+    .boutique {
+        margin-top: 80px;
+        width: 900px;
+    }
+    .abonnement {
+        margin-top: 80px;
+        width: 900px;
+    }
 }
