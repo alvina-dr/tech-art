@@ -123,6 +123,13 @@ input::placeholder {
 
 .captchat2 {
     background-color: #C4C4C4;
-    width: 376px;
+    width: 100%;
     height: 78px;
+    text-align: center;
+}
+
+.replayvolume {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
