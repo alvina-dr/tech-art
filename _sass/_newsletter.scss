@@ -120,6 +120,11 @@ input::placeholder {
     padding: 60px 20px;
     width: 411px;
     height: 466px;
+    display: none;
+}
+
+.captchat.is-opened {
+    display: block;
 }
 
 .captchat2 {
