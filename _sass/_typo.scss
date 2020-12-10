@@ -27,10 +27,14 @@ h3 {
 
 p {
     font-family: $bodyFont;
-    font-size: 18px;
+    font-size: 1em;
     color: $fontcolor;
     line-height: 1.8em;
 
+}
+
+ul {
+    line-height:180%;
 }
 
 body {
