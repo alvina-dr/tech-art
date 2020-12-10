@@ -3,6 +3,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
+    justify-content: space-around;
     h2{
         width: 231px;
         height: 94px;
@@ -16,5 +17,10 @@
     }
     p {
         align-self: flex-end;
+        width: 278px;
+    }
+    img {
+        min-width: 136px;
+        min-height: 207px;
     }
 }
