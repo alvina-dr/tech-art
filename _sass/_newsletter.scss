@@ -85,3 +85,28 @@ p.renseignement3 {
     margin-bottom: auto;
     margin-left: 10%;
 }
+
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .field {
+        width: 180px;
+        margin-top: 30px;
+        input {
+            background-color: #FDFFFC;
+            width: 100%;
+            height: 39px;
+            border-radius: 30px;
+            padding-left: 20px;
+        }
+        &.field-xl {
+            width: 380px;
+        }
+    }
+}
