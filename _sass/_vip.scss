@@ -27,9 +27,18 @@
 
 .tablette {
     display:none;
-    width: 40%;
+    width: 30%;
     height: auto;
+    padding: 0px 0px;
     object-fit: contain;
+    transition: transform 0.3s;
+}
+.tablette:hover {
+    transform: scale(1.3);
+}
+
+.tablette:hover ~ .boutique {
+    transform: scale(1.3)
 }
 
 .illustration-abonnement {
@@ -117,12 +126,12 @@
         }
     }
     .cloche {
-        width: 30%;
+        width: 60px;
         height: auto;
         align-self: baseline;
     }
     .promos {
-        width: 50%;
+        width: 80px;
         height: auto;
     }
 }
