@@ -1,15 +1,16 @@
+
 .vip {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: auto;
-    width: 100%;
-}
+    max-width: 100%;
+    }
 
 .boutique {
     background-color: #FF96A0;
-    padding: 50px 2%;
-    width: calc(100%-4%);
+    padding: 50px 6%;
+    width: calc(100%-12%);
     p {
         padding: 10% 0%;
         width: 80%;
@@ -18,21 +19,21 @@
 
 .illustration-boutique {
     display: none;
-    width: auto;
+    width: 5%;
     height: auto;
     object-fit: contain;
 }
 
 .tablette {
     display:none;
-    width: auto;
+    width: 90%;
     height: auto;
     object-fit: contain;
 }
 
 .illustration-abonnement {
     display: none;
-    width: auto;
+    width: 5%;
     height: auto;
     object-fit: contain;
 }
@@ -42,12 +43,56 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 50px 2%;
-    width: calc(100%-4%);
+    padding: 50px 6%;
+    width: calc(100%-12%);
     p {
         padding: 10% 0%;
         width: 80%;
         align-self: flex-end;
+        text-align: left;
+    }
+    h2 {
+        width: 98%;
     }
 
+}
+
+@media only screen and (min-width: 900px) {
+    .vip {
+        flex-direction: row;
+    }
+    .tablette {
+        display: initial;
+    }
+    .boutique {
+        background-color: initial;
+        display: initial;
+        padding: 10% 2%;
+        width: 100%;
+            p{
+                width: 100%;
+            }
+    }
+    .abonnement {
+        display: initial;
+        padding: 10% 2%;
+        h2{
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            width: 100%;
+
+        }
+    }
+
+@media only screen and (min-width: 1100px) {
+
+    .illustration-abonnement {
+        display: initial;
+    }
+    .illustration-boutique{
+        display: initial;
+    } 
+}
 }
