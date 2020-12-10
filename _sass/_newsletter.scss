@@ -60,10 +60,9 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
 
 .robot {
     background-color: #FDFFFC;
-    width: 253px;
-    height: 46px;
-    text-align: center;
-    margin-top: 35px;
+    width: 100%;
+    height: 39px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -109,4 +108,28 @@ input::placeholder {
             width: 380px;
         }
     }
+}
+
+.input-robot {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.captchat {
+    background-color: #FDFFFC;
+    width: 411px;
+    height: 466px;
+}
+
+.captchat2 {
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 78px;
+    text-align: center;
+}
+
+.replayvolume {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

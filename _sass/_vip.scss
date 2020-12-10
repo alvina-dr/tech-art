@@ -1,4 +1,5 @@
 
+
 .vip {
     display: flex;
     flex-direction: column;
@@ -26,7 +27,7 @@
 
 .tablette {
     display:none;
-    width: 90%;
+    width: 40%;
     height: auto;
     object-fit: contain;
 }
@@ -58,13 +59,13 @@
 
 }
 
-.cloche img{
-    width: 1%;
+.cloche{
+    width: 16%;
     height: auto;
 }
 
 .promos {
-    width: 1%;
+    width: 20%;
     height: auto;
 }
 
@@ -72,9 +73,15 @@
     .boutique {
         width: 100%;
     }
+    .abonnement p {
+        width: 100%;
+    }
+    .boutique p {
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 700px) {
     .vip {
         flex-direction: row;
         margin: 40px 0px;
@@ -85,7 +92,7 @@
     .boutique {
         background-color: initial;
         display: initial;
-        margin-top: 0px;
+        margin-top: 40px;
         padding: 2% 2%;
         width: 900px;
         margin-left: 2%;
@@ -95,7 +102,7 @@
     }
     .abonnement {
         display: initial;
-        margin-top: 0px;
+        margin-top: 40px;
         padding: 2% 2%;
         width: 1200px;
         margin-right: 2%;
@@ -110,8 +117,9 @@
         }
     }
     .cloche {
-        width: 40%;
+        width: 30%;
         height: auto;
+        align-self: baseline;
     }
     .promos {
         width: 50%;
