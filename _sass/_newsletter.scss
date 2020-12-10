@@ -86,38 +86,27 @@ p.renseignement3 {
     margin-left: 10%;
 }
 
-.champ3 {
-    background-color: #FDFFFC;
-    width: 380px;
-    height: 39px;
-    border-radius: 30px;
-    margin-top: 35px;
-    display: flex;
-    justify-content: left;
-}
-
-.champ2{
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    margin-left: 200px;
-    margin-top: -44.5px;
-    display: flex;
-    justify-content: left;
-}
-
-.champ1 {
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: left;
-}
 input::placeholder {
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding-left: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .field {
+        width: 180px;
+        margin-top: 30px;
+        input {
+            background-color: #FDFFFC;
+            width: 100%;
+            height: 39px;
+            border-radius: 30px;
+            padding-left: 20px;
+        }
+        &.field-xl {
+            width: 380px;
+        }
+    }
 }
