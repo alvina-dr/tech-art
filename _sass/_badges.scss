@@ -1,24 +1,32 @@
 .badges {
 
   h2 {
+      margin-bottom: 2rem;
     text-align: center;
   }
   p {
+    line-height: 1;
     font-size: 12px;
   }
   h3 {
-      margin-top: 1rem;
+      text-align: center;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
   }
 
   .badge-slide {
-    height: 250px;
+    height: 280px;
     width: 180px;
     background-color: #b1ede8;
     text-align: center;
-    margin: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+    margin-top: rem;
     padding: 2rem;
     border-radius: 20px;
     img {
+        margin-top: -0.5rem;
       width: 100px;
     }
   }
