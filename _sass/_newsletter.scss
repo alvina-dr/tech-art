@@ -85,3 +85,39 @@ p.renseignement3 {
     margin-bottom: auto;
     margin-left: 10%;
 }
+
+.champ3 {
+    background-color: #FDFFFC;
+    width: 380px;
+    height: 39px;
+    border-radius: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: left;
+}
+
+.champ2{
+    background-color: #FDFFFC;
+    width: 180px;
+    height: 39px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: -44.5px;
+    display: flex;
+    justify-content: left;
+}
+
+.champ1 {
+    background-color: #FDFFFC;
+    width: 180px;
+    height: 39px;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+}
