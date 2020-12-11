@@ -18,9 +18,20 @@
         padding-left: 5%;
         width: 100%;
     }
-    img {
+    .img_perso {
         padding-right: 3%;
         min-width: 140px;
         min-height: 212px;
+    }  
+}
+
+@media only screen and (max-width: 378px) {
+    .img_perso {
+        display: none;
+    }
+}
+@media only screen and (min-width: 379px) {
+    .img_perso {
+        display: initial;
     }
 }
