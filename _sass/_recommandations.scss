@@ -1,14 +1,13 @@
 .recommandations {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-around;
-    background-image: url("assets/media/ligne-haut-recommandations.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
     h2{
+
         width: 231px;
         height: 94px;
         align-self: flex-end;
