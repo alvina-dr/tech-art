@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+
   .margin {
     margin-right: 2rem;
     margin-left: 1rem;
@@ -16,16 +17,15 @@
     margin-right: 2rem;
     ul {
       list-style: none;
-      padding: 0;
       margin: 0;
     }
 
     li:before {
       content: "";
       background-image: url("/assets/media/star.png");
-      width: 16px;
-      height: 16px;
-      margin-right: 4px;
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
       display: inline-block;
       background-size: contain;
       vertical-align: middle;
