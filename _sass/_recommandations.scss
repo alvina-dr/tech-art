@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: row;
         align-self: flex-end;
-        img {
+        .img_perso {
             min-width: 136px;
             min-height: 207px;
             margin-bottom: -5px;
@@ -36,5 +36,15 @@
         align-self: flex-end;
         width: 278px;
         padding-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 378px) {
+    .img_perso {
+        display: none;
+    }
+}
+@media only screen and (min-width: 379px) {
+    .img_perso {
+        display: initial;
     }
 }
