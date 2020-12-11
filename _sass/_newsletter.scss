@@ -159,12 +159,19 @@ input::placeholder {
 }
 .purplebox2 {
     background-color: #A26CAA;
-    width: 240px;
-    height: 60px;
+    width: 140px;
+    height: 45px;
     margin: auto;
     border-radius: 30px;
     text-align: center;
     margin-top: 45px;
     display: flex;
     justify-content: center;
+}
+
+.blanc2 {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 5%;
 }
