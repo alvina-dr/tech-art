@@ -60,9 +60,10 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
 
 .robot {
     background-color: #FDFFFC;
-    width: 100%;
+    width: 70%;
     height: 39px;
     margin-top: 30px;
+    margin-left: 15%;
     display: flex;
     justify-content: center;
 }
@@ -115,18 +116,18 @@ input::placeholder {
     justify-content: space-evenly;
 }
 
-.captchat {
+.captcha {
     background-color: #FDFFFC;
     padding: 60px 20px;
     width: 411px;
     height: 466px;
 }
 
-.captchat.hidden {
+.captcha.hidden {
     display: none;
 }
 
-.captchat2 {
+.captcha2 {
     background-color: #C4C4C4;
     width: 100%;
     height: 78px;
@@ -169,8 +170,19 @@ input::placeholder {
     margin-top: 3%;
 }
 
-.txtcapchat {
+.txtcaptcha {
     font-weight: bold;
     font-size: 25px;
     padding-top: 3%;
+}
+
+.carreviolet {
+    background-color: #FDFFFC;
+    width: 20px;
+    height: 20px;
+    border: 20px;
+    border-width: 2px;
+    margin-top: 9px;
+    border-style: solid;
+    border-color: #A26CAA;
 }
