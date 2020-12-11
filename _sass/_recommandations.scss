@@ -1,17 +1,26 @@
 .recommandations {
-    padding-top: 100px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-around;
 
-    h2{
+    .recommandations-title {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        h2{
 
-        width: 231px;
-        height: 94px;
-        align-self: flex-end;
+            width: 231px;
+            height: 94px;
+            align-self: flex-end;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 20px;
+        }
     }
+    
     .bottom {
         display: flex;
         flex-direction: row;
