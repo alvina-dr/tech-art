@@ -20,6 +20,9 @@
       width: 32px;
       height: 32px;
     }
+    .croix:hover{
+    cursor: pointer;
+    }
     .croix:hover:before, .croix:hover:after {
       background: black;
     }
@@ -59,4 +62,28 @@
       color: #FFFFFF;
       font-size: 25px;
     }
+    button:hover {
+      cursor: pointer;
+    }
   }
+
+
+@media (min-width: 1000px) {
+  .cookies {
+    width: 568px;
+    height: 713px;
+    h2 {
+      width: 518px;
+      margin-top: 24px;
+    }
+    p {
+      font-size: 24px;
+      width: 496px;
+      margin-bottom: 30px;
+    }
+    button {
+      margin-top: 30px;
+    //   margin-left: 50px;
+    }
+  }
+}
