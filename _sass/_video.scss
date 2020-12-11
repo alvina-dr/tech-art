@@ -107,7 +107,10 @@
             content: url(/assets/media/tech-art.png);
             position: absolute;
             z-index: -1;
-            bottom: 0;
+            bottom: 50%;
         }
+    }
+    .title-lines {
+        flex: 1;
     }
 }
