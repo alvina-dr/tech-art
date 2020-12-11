@@ -29,10 +29,12 @@
             min-width: 136px;
             min-height: 207px;
             margin-bottom: -5px;
+            z-index: 1;
         }
     }
     p {
         align-self: flex-end;
         width: 278px;
+        padding-bottom: 10%;
     }
 }

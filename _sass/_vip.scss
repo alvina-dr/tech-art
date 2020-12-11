@@ -11,9 +11,16 @@
 .boutique {
     background-color: #FF96A0;
     padding: 50px 6%;
+    position: relative;
     p {
         padding: 10% 0%;
         width: 80%;
+    }
+    #boutique-line {
+        position: absolute;
+        top: -15%;
+        left: 0;
+
     }
 }
 
