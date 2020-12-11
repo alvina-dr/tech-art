@@ -76,6 +76,13 @@ margin-top: 15vh;
     text-decoration: none;
     font-size: 22px;
 }
+
+.menu_list li a :hover{
+    color: black;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
 .social_media {
     margin-top: 20px;
     height: 10vh;
