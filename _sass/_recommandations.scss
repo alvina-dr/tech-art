@@ -4,15 +4,23 @@
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-around;
-    background-image: url("assets/media/ligne-haut-recommandations.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
-    h2{
-        width: 231px;
-        height: 94px;
-        align-self: flex-end;
+    .recommandations-title {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        h2{
+
+            width: 231px;
+            height: 94px;
+            align-self: flex-end;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 20px;
+        }
     }
+    
     .bottom {
         display: flex;
         flex-direction: row;
