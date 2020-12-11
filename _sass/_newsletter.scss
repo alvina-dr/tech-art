@@ -151,7 +151,7 @@ input::placeholder {
 }
 
 .captext {
-    width: 376px;
+    width: 100%;
     height: 78px;
     padding-left: 5%;
 }
@@ -190,4 +190,15 @@ input::placeholder {
     margin-top: 9px;
     border-style: solid;
     border-color: #A26CAA;
+}
+.purplebox2 {
+    background-color: #A26CAA;
+    width: 240px;
+    height: 60px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
 }
