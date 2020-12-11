@@ -13,6 +13,7 @@
     background: #FFFFFF;
     visibility: visible;
     z-index: 10;
+    overscroll-behavior-y: hidden;
     .croix {
       position: absolute;
       right: 16px;
