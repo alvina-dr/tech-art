@@ -3,7 +3,6 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
 .bluediv {
     background-color: #AFEDE8;
     width: 100%;
-    height: 100%;
     display: flex;
     padding: 35px 8px;
 }
@@ -20,42 +19,6 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
     line-height: 30px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.boiteblanche1 {
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 30px;
-    display: flex;
-    justify-content: left;
-    
-
-}
-
-.boiteblanche2 {
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -39px;
-    display: flex;
-    justify-content: left;
-}
-
-.boiteblanche3 {
-    background-color: #FDFFFC;
-    width: 380px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 35px;
-    display: flex;
-    justify-content: left;
 }
 
 .robot {
@@ -94,9 +57,10 @@ input::placeholder {
 .newsletter-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 100%;
     .field {
-        width: 180px;
+        width: 45%;
         margin-top: 30px;
         input {
             background-color: #FDFFFC;
@@ -107,7 +71,7 @@ input::placeholder {
             border: none;
         }
         &.field-xl {
-            width: 380px;
+            width: 95%;
         }
     }
 }
