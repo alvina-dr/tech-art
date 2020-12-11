@@ -3,7 +3,6 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
 .bluediv {
     background-color: #AFEDE8;
     width: 100%;
-    height: 100%;
     display: flex;
     padding: 35px 8px;
 }
@@ -22,47 +21,12 @@ $bodyFont: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, 
     margin-right: 20px;
 }
 
-.boiteblanche1 {
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 30px;
-    display: flex;
-    justify-content: left;
-    
-
-}
-
-.boiteblanche2 {
-    background-color: #FDFFFC;
-    width: 180px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -39px;
-    display: flex;
-    justify-content: left;
-}
-
-.boiteblanche3 {
-    background-color: #FDFFFC;
-    width: 380px;
-    height: 39px;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 35px;
-    display: flex;
-    justify-content: left;
-}
-
 .robot {
     background-color: #FDFFFC;
-    width: 100%;
+    width: 70%;
     height: 39px;
     margin-top: 30px;
+    margin-left: 15%;
     display: flex;
     justify-content: center;
 }
@@ -93,9 +57,10 @@ input::placeholder {
 .newsletter-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 100%;
     .field {
-        width: 180px;
+        width: 45%;
         margin-top: 30px;
         input {
             background-color: #FDFFFC;
@@ -103,9 +68,10 @@ input::placeholder {
             height: 39px;
             border-radius: 30px;
             padding-left: 20px;
+            border: none;
         }
         &.field-xl {
-            width: 380px;
+            width: 95%;
         }
     }
 }
@@ -115,18 +81,22 @@ input::placeholder {
     justify-content: space-evenly;
 }
 
-.captchat {
+.captcha {
     background-color: #FDFFFC;
+    position: fixed;
     padding: 60px 20px;
-    width: 411px;
-    height: 466px;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
 }
 
-.captchat.hidden {
+.captcha.hidden {
     display: none;
 }
 
-.captchat2 {
+.captcha2 {
     background-color: #C4C4C4;
     width: 100%;
     height: 78px;
@@ -169,8 +139,19 @@ input::placeholder {
     margin-top: 3%;
 }
 
-.txtcapchat {
+.txtcaptcha {
     font-weight: bold;
     font-size: 25px;
     padding-top: 3%;
+}
+
+.carreviolet {
+    background-color: #FDFFFC;
+    width: 20px;
+    height: 20px;
+    border: 20px;
+    border-width: 2px;
+    margin-top: 9px;
+    border-style: solid;
+    border-color: #A26CAA;
 }
